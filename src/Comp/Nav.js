@@ -2,17 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import data from "../PageData";
 
-// const Links = [
-//   {
-//     "Name": "Get Clone",
-//     "Link": "/clone",
-//   },
-//   {
-//     "Name": "Get Branch",
-//     "Link": "/branch",
-//   },
-// ];
-
 export default function Nav() {
   return (
     <div className="fixed w-12 h-screen flex flex-col gap-8 justify-between items-center py-20 bg-teal-800 lg:flex-row lg:gap-4 lg:h-12 lg:w-screen lg:px-20 lg:py-0">

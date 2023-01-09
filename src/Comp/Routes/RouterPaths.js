@@ -8,9 +8,9 @@ export default function RouterPath() {
   return (
     <div className="lg:pt-12">
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Navigate replace to="/" />} />
+        <Route path="/" element={<Navigate replace to="/clone" />} />
         {data.NavLinks.map((items, index) => {
-          return <Route exact path={items.Link} element={<Clone test={items.Name} />}></Route>;
+          return <Route exact path={items.Link} element={<Clone data={items} key={index} />}></Route>;
         })}
       </Routes>
     </div>
