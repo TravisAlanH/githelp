@@ -4,15 +4,9 @@ import Header from "./Header";
 
 export default function Clone({ data }) {
   return (
-    <div className="pl-12 lg:pl-0">
+    <div className="pl-12 pr-6 lg:pl-0">
       <Header data={data} />
-      {data.PageContent.map((item, index) => {
-        return (
-          <div key={index}>
-            <ContentSection PageContent={item} />
-          </div>
-        );
-      })}
+      <ContentSection PageContent={data.PageContent} />
     </div>
   );
 }

@@ -8,13 +8,13 @@ const data = {
       "PageContent": [
         {
           "Title": "Title 1",
-          "Code": "Code 1",
+          "Type": "Text",
           "Text": "Text 1",
         },
         {
           "Title": "Title 2",
-          "Code": "Code 2",
-          "Text": "Text 2",
+          "Type": "Code",
+          "Text": "Code 2",
         },
       ],
     },
@@ -26,13 +26,13 @@ const data = {
       "PageContent": [
         {
           "Title": "Title 3",
-          "Code": "Code 3",
+          "Type": "Text",
           "Text": "Text 3",
         },
         {
           "Title": "Title 4",
-          "Code": "Code 4",
-          "Text": "Text 4",
+          "Type": "Code",
+          "Text": "Code 4",
         },
       ],
     },
